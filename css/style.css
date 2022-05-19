@@ -112,14 +112,40 @@ header h5 {
     background-color: rgb(247, 150, 178);
 }
 
+/* Section 3 About ------------------------------*/
+.ms_main_container.section3 {
+    width: 70%;
+    margin: 0 auto;
+}
 
+.about_title,
+.download_button {
+    text-align: center;
+}
+.about_title h2 {
+    font-weight: 600;
+}
 
+.about_text {
+    padding: 1.5rem 0;
+    font-size: 1.2rem;;
+    font-weight: 600;
+}
+
+.download_button {
+    padding-top: 0.5rem;
+}
 
 /******************************* 
           MEDIA QUERY 
 ********************************/
 
 @media screen and (min-width: 768px){
-
+    /* MAIN  */
     
+    /* Section 3 */
+    .about_text {
+        font-weight: 400;
+        font-size: 1rem;
+    }
 }
