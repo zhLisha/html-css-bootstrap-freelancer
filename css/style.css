@@ -62,9 +62,9 @@ header h5 {
         MAIN 
 **************************/
 
-/* section 1 */
+/* Section 1 -------------------------*/
 
-.ms_container {
+.ms_container_header {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -89,4 +89,37 @@ header h5 {
 
 .section1_text {
     font-size: 1.3rem;
+}
+
+/* Section 2 -------------------------------*/
+.ms_main_container{
+    padding: 3rem 0;
+}
+.portfolio_title {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.portfolio_icons {
+    padding: 0.4rem 0;
+}
+
+
+.portfolio_icons p{
+
+    /* test */
+    border-radius: 10px;
+    background-color: rgb(247, 150, 178);
+}
+
+
+
+
+/******************************* 
+          MEDIA QUERY 
+********************************/
+
+@media screen and (min-width: 768px){
+
+    
 }
