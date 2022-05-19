@@ -113,7 +113,7 @@ header h5 {
 }
 
 /* Section 3 About ------------------------------*/
-.ms_main_container.section3 {
+.ms_main_container.section_small {
     width: 70%;
     margin: 0 auto;
 }
@@ -135,6 +135,36 @@ header h5 {
 .download_button {
     padding-top: 0.5rem;
 }
+
+/* Section 4 Contact Me */
+.contact_me_title {
+    text-align: center;
+}
+
+.user_info {
+    padding-top: 2rem;
+}
+
+.user_info li {
+    border-bottom: 1px solid lightgrey;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.user_info li:last-child {
+    padding-bottom: 8rem;
+}
+
+.send_button{
+    padding-top: 1rem;
+}
+
+.send_button span{
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 7px;
+}
+
 
 /******************************* 
           MEDIA QUERY 
