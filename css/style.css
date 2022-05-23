@@ -215,6 +215,11 @@ header h5 {
 }
 
 .social-icons li {
+    display: inline-block;
+    margin: 0.3rem 0.3rem;
+}
+
+.social-icons li a {
     width: 60px;
     height: 60px;
     display: inline-block;
@@ -222,8 +227,8 @@ header h5 {
     border-radius: 50%;
     line-height: 55px;
     font-size: 25px;
-    margin: 0 0.3rem;
 }
+
 .ms_container_footer, 
 footer h5{
     font-weight: 500;
